@@ -1,8 +1,11 @@
+body{
+    margin: auto 0;  /*use all space in page*/
+}
 .zone {
-    padding:30px 50px;
-    margin:40px 60px;
+    /* padding:30px 50px;
+    margin:40px 60px; */
     cursor:pointer;
-    display:inline-block;
+    /* display:inline-block; */
     color:#FFF;
     font-size:2em;
     border-radius:4px;
@@ -24,6 +27,17 @@
     list-style: none; /* remove the list dots from html */
     font-size: 0.7em;
     margin: 0;
+}
+
+@media only screen and(max-width: 600px){
+    .main-nav{
+        font-size: 0.5em;
+        padding: 0;
+    }
+}
+
+.push{
+    margin-left: auto; /*push it to the most right*/
 }
 
 li{
